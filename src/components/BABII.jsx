@@ -6,11 +6,11 @@ const BABII = () => {
     let count = 0;
 
     const handleClick = (card) => {
-        if (count < 13) {
+        if (count < 14) {
             card.classList.remove('top');
             card.classList.add('bottom');
             count++;
-        } else if (count === 13) {
+        } else if (count === 14) {
             const div = document.querySelectorAll('div');
             for (let i = 0; i < div.length; i++) {
                 div[i].classList.remove('bottom');
@@ -102,7 +102,7 @@ const BABII = () => {
                     <img src="./assets/img/img5.jpg" alt="" className='img' />
                 </div>
                 <div className="images lg:w-[700px] w-[400px]">
-                    <img src="./assets/img/img2.jpg" alt="" className='img' />
+                    <img src="./assets/img/img4.jpg" alt="" className='img' />
                 </div>
                 <div className="images lg:w-[700px] w-[400px]">
                     <img src="./assets/img/img6.jpg" alt="" className='img' />
