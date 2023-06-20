@@ -6,11 +6,11 @@ const BABII = () => {
     let count = 0;
 
     const handleClick = (card) => {
-        if (count < 14) {
+        if (count < 9) {
             card.classList.remove('top');
             card.classList.add('bottom');
             count++;
-        } else if (count === 14) {
+        } else if (count === 9) {
             const div = document.querySelectorAll('div');
             for (let i = 0; i < div.length; i++) {
                 div[i].classList.remove('bottom');
